@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image-section {
+    position: relative;
+}
+
+.overlay-logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    width: 100%;
+    height: 80px;
+    top: 200px;
+    opacity: 0.5;
+}
+
+#logo{
+    width: 70px;
+    height: auto;
+}
+
+#main-image {
+    width: 450px;
+    height: 100vh;
+    margin: 0%;
+}
