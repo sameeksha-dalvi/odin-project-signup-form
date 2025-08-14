@@ -29,6 +29,16 @@ body {
     height: auto;
 }
 
+#image-credit{
+    position: absolute;
+    font-size: 12px;
+    bottom: 10px;
+    left: 55px;
+    color: white;
+}
+
+
+
 #main-image {
     width: 450px;
     height: 100vh;
