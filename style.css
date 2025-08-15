@@ -2,7 +2,7 @@
 body {
     display: flex;
     margin: 0%;
-    justify-content: center;
+    justify-content: stretch;
     align-items: center;
     font-family: "Roboto", sans-serif;
 }
@@ -45,6 +45,12 @@ body {
     width: 450px;
     height: 100vh;
     margin: 0%;
+}
+
+#info{
+    font-size: 20px;
+    width: 555px;
+    margin-bottom: 50px;
 }
 
 .form-section{
