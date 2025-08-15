@@ -67,3 +67,14 @@ body {
     font-size: 10px;
     letter-spacing: 2px;
 }
+
+#create-account-btn{
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border-width: 0;
+    background-color: rgb(166, 84, 84);
+    color: white;
+    font-weight:bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
