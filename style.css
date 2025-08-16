@@ -80,10 +80,11 @@ body {
     font-weight:bold;
     margin-top: 20px;
     margin-bottom: 10px;
+    box-shadow: 2px 2px 10px -5px rgb(148, 130, 130);
 }
 
 #form-data{
-    box-shadow: 0px 2px 5px -2px gray;
+    box-shadow: 0px 2px 5px -2px rgb(145, 115, 115);
     padding-bottom: 20px;
     padding-top: 5px;
 }
