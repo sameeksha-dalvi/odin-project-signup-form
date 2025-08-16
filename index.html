@@ -58,11 +58,11 @@
                     <div class="form-input">
                         <p>
                             <label class="input-label" for="pswd">Password</label><br>
-                            <input type="password" id="pswd" name="pswd">
+                            <input type="password" id="pswd" name="pswd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
                         </p>
                         <p>
                             <label class="input-label" for="confirm-pswd">Confirm Password</label><br>
-                            <input type="password" name="confirm-pswd" id="confirm-pswd">
+                            <input type="password" name="confirm-pswd" id="confirm-pswd" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
                         </p>
                     </div>
                 </div>
