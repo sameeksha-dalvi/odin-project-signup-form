@@ -51,21 +51,24 @@ body {
     font-size: 20px;
     width: 555px;
     margin-bottom: 50px;
+    margin-left: 30px;
 }
 
 .form-section{
-    margin-left: 30px;;
+    width: 100%;
 }
 
 .form-input{
     display: flex;
     gap: 50px;
+    padding-left: 30px;
 }
 
 .input-label{
     text-transform: uppercase;
     font-size: 10px;
     letter-spacing: 2px;
+    color: rgb(11, 11, 45);
 }
 
 #create-account-btn{
@@ -77,4 +80,20 @@ body {
     font-weight:bold;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+#form-data{
+    box-shadow: 0px 2px 5px -2px gray;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+#form-btns{
+    margin-left: 30px;
+}
+
+#form-title{
+    margin-left: 30px;
+    color: rgb(11, 11, 45);
+    font-size: 18px;
 }
